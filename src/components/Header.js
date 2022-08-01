@@ -11,7 +11,7 @@ function Header() {
     <header>
         {/* Top nav */}
         <div className='flex items-center bg-mojo-black p-1 flex-grow py-2'>
-            <div className='mt-2 flex items-center flex-grow sm:flex-grow-0'>
+            <div className='mt-1 mr-2 flex items-center flex-grow sm:flex-grow-0'>
                 <Image src='https://getkomfy.net/wp-content/uploads/2022/07/mojo.png'
                 width={150}
                 height={40}

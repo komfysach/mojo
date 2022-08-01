@@ -13,7 +13,7 @@ function Product({id, title, price, description, category, image, rating}) {
 
   return (
     <div className='relative flex flex-col m-5 bg-white z-30 p-10 rounded-3xl'>
-        <p className='absolute top-2 right-2 text-xs italic text-gray-400 p-3'>{category}</p>
+        <p className='bg-mojo-blue rounded-full py-1 absolute top-2 right-2 text-xs bold text-white p-3 my-2 mx-2'>{category}</p>
         <Image src={image} height={200} width={200} objectFit='contain'/>
         <h4 className='my-3 font-medium'>{title}</h4>
         <div className='flex'>
