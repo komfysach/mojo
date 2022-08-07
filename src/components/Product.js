@@ -23,7 +23,7 @@ function Product({id, title, price, description, category, image, rating}) {
         <div className='mb-5 font-medium'>
             <Currency quantity={price} currency='EUR'/>
         </div>
-        <button className='mt-auto button'>Add to Basket</button>
+        <button className='mt-auto button text-white'>Add to Basket</button>
     </div>
   )
 }

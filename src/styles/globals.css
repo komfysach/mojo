@@ -8,6 +8,6 @@
     }
 
     .button {
-        @apply p-2 text-xs md:text-sm font-semibold bg-mojo-orange rounded-full hover:bg-mojo-pink active:bg-mojo-blue;
+        @apply p-2 text-xs md:text-sm font-semibold bg-mojo-blue rounded-full hover:bg-mojo-pink active:bg-mojo-blue;
     }
 }
